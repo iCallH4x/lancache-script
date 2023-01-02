@@ -3,10 +3,10 @@
 Script that automatically installs and sets up lancache on Ubuntu 20.04 Linux
 You can run this by doing the command 
  
-    bash <(curl -s https://raw.githubusercontent.com/MrFlacko/lancache-script/main/script.sh)
+    bash <(curl -s https://raw.githubusercontent.com/iCallH4x/lancache-script/main/script.sh)
 
 ## Requirements ##
-This script is designed to be run on a fresh install of ubuntu 20.04, if you already installed docker it has a chance of breaking.
+This script is designed to be run on a fresh install of ubuntu, if you already installed docker it has a chance of breaking.
 
 ## What the script does ##
 When you run this script:
@@ -23,8 +23,3 @@ The cache directory is by default /var/lib/lancache/lancache
 You can change the cache folder during the setup, when configuring the .env
 Just set the IP Address as the same IP Address as the machine, if you want extra IP Addresses, you have to set that up prior.
 It's the same as manually installing it, though you just do it through a script, you shouldn't have to fear lack of customizability
-
-## Contact Info ##
-If there are problems you can open an issue, if you suggest changes feel free to do a pull request. Happy to apply better code
-If I don't respond in a timely manner you join my discord server to contact me
-https://discord.plexusmc.net
