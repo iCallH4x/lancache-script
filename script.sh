@@ -2,7 +2,7 @@
 
 # Some Global Variables
 osVersion="$(lsb_release -a 2> /dev/null | grep Desc | sed -e 's/.*://' -e 's/^[ \t]*//')"
-lancacheDIR="/var/lib"
+lancacheDIR="/lancache"
 lancacheDockerLink="https://github.com/lancachenet/docker-compose"
 lancacheDirectoryName="lancache"
 
